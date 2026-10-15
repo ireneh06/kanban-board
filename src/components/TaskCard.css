@@ -1,0 +1,50 @@
+.cards {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    /* border-radius: 10px; */
+    flex: 15;
+    max-height: 700px;
+
+}
+
+.task:hover {
+    background-color: rgb(234, 237, 255);
+}
+
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 8px; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.definition {
+    font-size: 16px;
+
+}
+
+.icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+}
